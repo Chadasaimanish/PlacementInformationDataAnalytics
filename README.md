@@ -1,4 +1,5 @@
 🎓 Placement Data Analytics Dashboard
+https://saimanishdataanalytics.streamlit.app/
 
 An interactive Streamlit web app that visualizes college placement data year-wise, branch-wise, and recruiter-wise using Plotly charts and beautiful UI themes.
 
