@@ -8,7 +8,7 @@ st.set_page_config(page_title="Placement Dashboard", layout="wide", page_icon="ð
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("C:\Users\saima\Downloads\NNRG_Placement_2018_2025.csv")
     # Clean branch names
     df['Branch'] = df['Branch'].str.strip()
     df['Branch'] = df['Branch'].replace('B.Pharm acy', 'B.Pharmacy')
@@ -562,3 +562,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
