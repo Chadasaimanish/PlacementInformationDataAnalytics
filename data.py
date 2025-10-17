@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly as px
 
 # -----------------------------
 # Page Configuration
@@ -218,3 +218,4 @@ st.markdown("---")
 # -----------------------------
 st.subheader("Full Placement Data")
 st.dataframe(filtered_df, use_container_width=True)
+
